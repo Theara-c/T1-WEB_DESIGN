@@ -1,0 +1,28 @@
+body {
+  background: grey;
+  font-family: sans-serif;
+}
+div {
+  background-color: white;
+  padding: 20px;
+  margin: 30px 100px;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 8px;
+  color: white;
+}
+button:hover {
+  color: black;
+}
+.btn1 {
+  background-color: rgb(6, 247, 62);
+}
+.btn2 {
+  background-color: rgb(255, 123, 0);
+}
+.btn3 {
+  background-color: rgb(119, 0, 231);
+}

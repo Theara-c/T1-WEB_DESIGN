@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+    height: 600px;
+    padding-bottom: 40px;
+
+}
+.card {
+    display : flex;
+    flex-direction: column;
+
+}
+
+.image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top:30px;
+    border: 1px solid black;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.bio{
+    padding-bottom: 40px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+.label  {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+.item .value {
+    font-size: 20px;
+    font-weight: bold;
+}
+.text p {
+    font-size: large;
+    padding-bottom: 20px;
+}
+.social a {
+    margin: 30px 0;
+    margin-left:15px;
+    font-size: 25px;
+    
+}
+.social {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#x #facebook{
+    color: blue;
+}
+#google {
+    color: rgb(181, 121, 11);
+}
+#youtube {
+    color: red;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    border-radius: 100px;
+}
+button:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
