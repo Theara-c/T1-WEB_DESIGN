@@ -1,0 +1,54 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #333333;
+  color: #444;
+  padding: 20px;
+
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+  gap: 20px;
+}
+
+.item {
+  background-color: #3092d7;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+  
+}
+
+/* Layouting only  (your work)*/
+.a {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+.b {
+  grid-row:2/4;
+  grid-column: 1/2;
+}
+.C {
+  grid-row:2/3;
+  grid-column: 2/3;
+}
+.d {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.e {
+  grid-column:2/4;
+  grid-row: 3/4;
+}
+.f {
+  grid-row: 4/5;
+  grid-column: 1/4;
+}
+.item  > div {
+  border: 9px solid black;
+}

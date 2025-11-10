@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+  width: 15rem;
+  background-color: rgb(252, 252, 252);
+}
+.main {
+  width: 60rem;
+  background-color: #f0f0f0;
+}
+.logo {
+  font-size: larger;
+}
+ul li {
+  list-style: none;
+  margin-top: 2.5rem;
+}
+.button-box {
+  width: auto;
+  margin: 5rem 1rem 0rem 1rem;
+  background-color: #f0f0f0;
+  height: 14rem;
+  display: grid;
+  place-items: center;
+}
+button {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgb(40, 188, 202);
+  color: white;
+}
+.nav-main {
+  height: 2.5rem;
+  margin: 0.8rem;
+}
+.welcome {
+  border: 1px solid black;
+  height: 8rem;
+  margin: 1rem 2rem;
+}
+.box {
+  display: flex;
+
+  margin: 1rem 2rem;
+  height: 20rem;
+  gap: 1em;
+}
+.leftSide {
+  background-color: rgb(255, 255, 255);
+  padding: 0.4rem;
+  width: 50em;
+}
+.rightSide {
+  background-color: white;
+  width: 50em;
+  padding: 0.4rem;
+}
+.learning {
+  margin: 1rem 2rem;
+  height: 7rem;
+  background-color: rgb(255, 255, 255);
+}
+.contain-course {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.course {
+  border: 1px solid black;
+  width: 15rem;
+  height: 2.5rem;
+}
+.course:hover {
+  cursor: pointer;
+}
+div :not(.sidebar, .main, .nav) {
+  border-radius: 1.5rem;
+}
+.sidebar {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.block {
+  margin-top: 3rem;
+}
+.study {
+  border: 1px solid black;
+  height: 3rem;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+.sidebar nav {
+  align-self: flex-start;
+  margin: 5px;
+}
