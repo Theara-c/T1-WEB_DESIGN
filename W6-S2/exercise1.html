@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise1</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+             gap:1rem;
+        }
+      .box {
+          background-color: aqua;
+          color: black;
+          padding: 1rem;
+        text-align: center;
+
+      }
+      @media (max-width: 1000px) {
+        .container{
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+            @media (max-width: 768px) {
+        .container{
+          grid-template-columns: repeat(2, 1fr);
+        }}
+              @media (max-width: 480px) {
+        .container{
+          grid-template-columns: repeat(1, 1fr);
+        }}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">item1</div>
+      <div class="box">item2</div>
+      <div class="box">item3</div>
+      <div class="box">item4</div>
+      <div class="box">item5</div>
+      <div class="box">item6</div>
+      <div class="box">item7</div>
+      <div class="box">item8</div>
+    </div>
+  </body>
+</html>
