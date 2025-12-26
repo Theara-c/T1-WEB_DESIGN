@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise3</title>
+    <style>
+        body{
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        @media (min-width: 600px) and (max-width:900px){
+            .container{
+                display: flex;
+            }
+            .header, .footer , .main, .sidebar {
+                padding:0.3rem;
+            }
+            .main, .sidebar {
+                flex-grow: 1;
+            }
+        }
+        @media (min-width: 900px){
+              .container{
+                display: flex;
+            }
+            .header, .footer , .main, .sidebar {
+                padding:0.3rem;
+            }
+            .main {
+                flex-grow: 2;
+            }
+            .sidebar {
+                flex-grow: 1;
+            }
+        }
+        .header ,.footer {
+            background-color: black;
+            padding:0.5rem;
+
+        }
+        .main, .sidebar {
+            text-align: left;
+            padding: 0.5em;
+            color: black;
+            background-color:rgb(159, 154, 149);
+            margin: 0.3rem;
+        }
+        .container {
+            margin: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class = "header">Responsive Header</div>
+    <div class = "container">
+        <div class = "main">Main Content</div>
+        <div class = "sidebar">Sidebar</div>
+    </div>
+    <div class = "footer">Footer</div>
+</body>
+</html>

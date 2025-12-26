@@ -1,0 +1,43 @@
+lxi h 2000
+mov a, m
+inx h
+mov b, m
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+sta 2002
+mov a,b
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+RRC
+sta 2003
+    //ex3: lxi h 2000
+mov a, m
+RAL
+RAL
+RAL
+RAL
+sta 2001
+hlt 
+    ex6
+    lxi h 2000
+lxi d 2004
+mov a,e
+sub l
+mov c,a
+mvi a 00
+loop: add m
+inr l
+dcr c
+jnz loop
+hlt
